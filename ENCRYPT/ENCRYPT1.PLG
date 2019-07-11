@@ -1,0 +1,86 @@
+--------------------Configuration: Encrypt1 - Win32 Debug--------------------
+Begining build with project "C:\MyProjects\CRYPTO\encrypt\Encrypt1.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Encrypt1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x41f /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/Encrypt1.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Encrypt1.pdb" /debug /machine:I386 /out:"Debug/Encrypt1.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP90F0.TMP" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Encrypt1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\MyProjects\Crypto\encrypt\Encrypt1.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP90F0.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP90F1.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Encrypt1.pdb" /debug /machine:I386 /out:"Debug/Encrypt1.exe" /pdbtype:sept 
+.\Debug\Encrypt1.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP90F1.TMP" 
+Compiling...
+Encrypt1.c
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(63) : error C2065: 'HCRYPTPROV' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(63) : error C2146: syntax error : missing ';' before identifier 'hProv'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(63) : error C2065: 'hProv' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(64) : error C2065: 'HCRYPTKEY' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(64) : error C2146: syntax error : missing ';' before identifier 'hKey'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(64) : error C2065: 'hKey' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(65) : error C2146: syntax error : missing ';' before identifier 'hXchgKey'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(65) : error C2065: 'hXchgKey' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(66) : error C2065: 'HCRYPTHASH' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(66) : error C2146: syntax error : missing ';' before identifier 'hHash'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(66) : error C2065: 'hHash' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(68) : error C2275: 'PBYTE' : illegal use of this type as an expression
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(68) : error C2146: syntax error : missing ';' before identifier 'pbKeyBlob'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(68) : error C2065: 'pbKeyBlob' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(68) : warning C4047: '=' : 'int ' differs in levels of indirection from 'void *'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(69) : error C2275: 'DWORD' : illegal use of this type as an expression
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(69) : error C2146: syntax error : missing ';' before identifier 'dwKeyBlobLen'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(69) : error C2065: 'dwKeyBlobLen' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(71) : error C2275: 'PBYTE' : illegal use of this type as an expression
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(71) : error C2146: syntax error : missing ';' before identifier 'pbBuffer'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(71) : error C2065: 'pbBuffer' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(71) : warning C4047: '=' : 'int ' differs in levels of indirection from 'void *'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(72) : error C2275: 'DWORD' : illegal use of this type as an expression
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(72) : error C2146: syntax error : missing ';' before identifier 'dwBlockLen'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(72) : error C2065: 'dwBlockLen' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(73) : error C2275: 'DWORD' : illegal use of this type as an expression
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(73) : error C2146: syntax error : missing ';' before identifier 'dwBufferLen'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(73) : error C2065: 'dwBufferLen' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(74) : error C2275: 'DWORD' : illegal use of this type as an expression
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(74) : error C2146: syntax error : missing ';' before identifier 'dwCount'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(74) : error C2065: 'dwCount' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(76) : error C2275: 'BOOL' : illegal use of this type as an expression
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(76) : error C2146: syntax error : missing ';' before identifier 'status'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(76) : error C2065: 'status' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(91) : warning C4013: 'CryptAcquireContext' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(91) : error C2065: 'PROV_RSA_FULL' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(100) : warning C4013: 'CryptGenKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(100) : error C2065: 'CALG_RC4' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(100) : error C2065: 'CRYPT_EXPORTABLE' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(106) : warning C4013: 'CryptGetUserKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(106) : error C2065: 'AT_KEYEXCHANGE' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(112) : warning C4013: 'CryptExportKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(112) : error C2065: 'SIMPLEBLOB' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(116) : warning C4047: '=' : 'int ' differs in levels of indirection from 'void *'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(116) : warning C4047: '==' : 'int ' differs in levels of indirection from 'void *'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(128) : warning C4013: 'CryptDestroyKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(139) : warning C4022: 'fwrite' : pointer mismatch for actual parameter 1
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(149) : warning C4013: 'CryptCreateHash' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(149) : error C2065: 'CALG_MD5' : undeclared identifier
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(155) : warning C4013: 'CryptHashData' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(161) : warning C4013: 'CryptDeriveKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(167) : warning C4013: 'CryptDestroyHash' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(184) : warning C4047: '=' : 'int ' differs in levels of indirection from 'void *'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(184) : warning C4047: '==' : 'int ' differs in levels of indirection from 'void *'
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(192) : warning C4022: 'fread' : pointer mismatch for actual parameter 1
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(200) : warning C4013: 'CryptEncrypt' undefined; assuming extern returning int
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(207) : warning C4022: 'fwrite' : pointer mismatch for actual parameter 1
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(225) : warning C4022: 'free' : pointer mismatch for actual parameter 1
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(226) : warning C4022: 'free' : pointer mismatch for actual parameter 1
+C:\MyProjects\Crypto\encrypt\Encrypt1.c(238) : warning C4013: 'CryptReleaseContext' undefined; assuming extern returning int
+Error executing cl.exe.
+
+
+
+Encrypt1.exe - 38 error(s), 22 warning(s)

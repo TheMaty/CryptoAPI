@@ -1,0 +1,214 @@
+      --------------------------------------------------------
+          Microsoft Windows için Microsoft Windows 95 BENÝOKU
+		             Aðustos l995            
+      --------------------------------------------------------
+	      (c) Telif Hakký Microsoft Corporation, 1995
+
+
+--------------------------
+BU BELGE NASIL KULLANILIR?
+--------------------------
+
+Not Defteri'nde ekrandaki Benioku.txt dosyasýný görüntülemek için, Not 
+Defteri penceresini ekraný kaplayacak þekilde büyütün.
+
+Benioku.txt dosyasýný yazdýrmak için, dosyayý Not Defteri'nde ya da baþka 
+bir sözcük iþlemcisinde açýn, sonra Dosya menüsündeki Yazdýr komutunu 
+kullanýn.
+
+
+-----------
+ÝÇÝNDEKÝLER
+-----------
+
+WINDOWS 95'Ý YÜKLEMEDÝYSENÝZ
+WINDOWS 95 BENÝOKU DOSYALARININ LÝSTESÝ
+BENÝOKU DOSYALARI NASIL OKUNMALI
+WINDOWS 95'Ý GERÝ YÜKLEME
+-----------
+
+
+WINDOWS 95'Ý YÜKLEMEDÝYSENÝZ
+============================
+
+Ek kurma bilgisi Setup.txt dosyasýnda bulunabilir. Windows 3.1'le
+Not Defteri'ni kullanarak Setup.txt dosyasýný görüntüleyebilirsiniz.
+Bu dosyayý, Windows 95 yükleme disketi 1'de bulabilirsiniz. Windows 95'i
+CD-ROM'da satýn aldýysanýz, Setup.txt dosyasýný, \Win95 dizininde 
+bulabilirsiniz.
+
+
+WINDOWS 95 BENÝOKU DOSYALARININ LÝSTESÝ
+=======================================
+Benioku.txt dosyasýna ek olarak, Windows 95 aþaðýdaki benioku dosyalarýný
+saðlamaktadýr:
+	
+	Config.txt	Config.sys dosyanýzla birlikte kullandýðýnýz 
+                        komutlar için sözdizimi bilgileri içerir.
+
+	Display.txt	Kullanýlabilir sürücülerin nasýl yapýlandýrýlacaðý,
+			sorunlarýn nasýl düzeltileceði ve ek görüntü 
+			sürücülerinin nasýl edinileceði hakkýnda bilgiler 
+                        içerir.
+
+	Exchange.txt	Microsoft Exchange'i kurma ve çalýþtýrmada
+			size yardýmcý olacak bilgi verir.
+
+	Extra.txt	Windows 95'in yalnýzca CD-ROM sürümünde bulunan
+			dosyalara ek olarak, güncelleþtirmeler ve sürücüler
+			gibi, ek Windows 95 dosyalarýnýn nerede 
+                        bulunabileceði konusunda bilgi verir.
+
+	Faq.txt		Windows 95'le ilgili sýk sorulan sorularý
+			yanýtlar.
+
+	General.txt	Baþlatma sorunlarý, Windows 95 ile birlikte verilen
+			programlar, disk araçlarý, disketler ve CD'ler,
+			sürücüler, kaldýrýlabilir ortam, Microsoft FAX
+			ve kalem hizmetleriyle ilgili sorunlar konusunda 
+                        bilgi verir.
+
+			Bu dosya ayrýca, geç alýndýðý için diðer benioku
+			dosyalarýnda yeralmayan son dakika bilgilerini 
+                        içerir. Örneðin, bir yazýcý hakkýnda sorunuz varsa, 
+                        Printers.txt dosyasýna olduðu kadar General.txt
+                        dosyasýna bakmak da yararlý olabilir.
+	
+	Hardware.txt	Donanýmlarla ilgili bilinen sorunlar ve bunlarýn
+			çözümleri konusunda bilgi verir. Belirli sorunlarda
+			Printera.txt ya da Mouse.txt dosyalarýna da
+			bakmanýz gerekebilir.
+
+	Internet.txt	Eðer zaten baðlý deðilseniz, Ýnternet'e baðlanmanýza
+			yardýmcý olacak bilgiler verir. Ayrýca, Microsoft'un
+			yeni Web gözatýcýsý olan Ýnternet Explorer'ýn
+			nereye yükleneceði konusunda da bilgi verir.
+
+	Mouse.txt	Özellikle fare ve klavye ile ilgili bilinen sorunlar
+			ve bu sorunlarý çözümü konusunda bilgi verir.
+
+	Msdosdrv.txt	MS-DOS aygýt sürücüleri için sözdizimi bilgileri
+			içerir. MS-DOS komutlarý konusunda ek yardým için
+			Config.txt dosyasýna bakýn. Komut isteminde,
+			komut adýndan sonra /? yazarak komut satýrý
+			yardýmýný da kullanabilirsiniz.
+
+	Msn.txt		The Microsoft Network baðlanmanýza yardýmcý
+			olacak bilgiler verir.
+
+	Network.txt	Að sunucularýný yükleme ve çalýþtýrma konusunda 
+                        bilgi verir.
+
+	Printers.txt	Yazýcýlarla ilgili bilinen sorunlar ve bunlarýn 
+                        çözümleri konusunda bilgi verir.
+
+	Programs.txt	Windows ve MS-DOS tabanlý belirli programlarýn
+			Windows 95 ile çalýþtýrýlmasýyla ilgili 
+			bilgiler ve çözüm önerileri verir.
+
+	Support.txt	Windows 95 için nasýl ek destek saðlanacaðý
+			konusunda bilgi verir.
+
+	Tips.txt	Windows 95'in kullanýmýyla ilgili, pekçoðu çevrimiçi
+			Yardým'da ve yazýlý kitapta yeralmayan, ipuçlarý
+			ve özelliklerden oluþan bir karýþým içerir.
+
+
+BENÝOKU DOSYALARI NASIL OKUNMALI 
+================================
+
+Windows 95'Ý yüklediðinizde, bütün benioku dosyalarý \Windows dizinine
+yüklenir. 
+
+Windows 95'i yükledikten sonra bir benioku dosyasý açmak için:
+1. Baþlat menüsünü týklatýn.
+2. Çalýþtýr'ý týklatýn.
+3. Benioku dosyasýnýn adýný yazýn.
+
+Windows 95'i daha yüklememiþ olsanýz da, bir benioku dosyasýný yine de 
+açabilirsiniz.
+
+Windows 95'i yüklemeden önce bir benioku dosyasýný açmak için:
+
+Windows 95'i disketlerde satýn aldýysanýz:
+------------------------------------------
+1. A sürücüsüne (ya da hangi sürücüyü tercih ediyorsanýz) Disket 1'i 
+yerleþtirin.
+2. MS-DOS komut isteminde, þunlarý yazýn:
+
+   a:extract.exe /a /l c:\windows win95_02.cab dosyaadý.txt
+
+Örneðin, General.txt'i açmak istiyorsanýz, þunlarý yazýn:
+
+   a:extract.exe /a /l c:\windows win95_02.cab general.txt
+
+3. \Windows dizinine geçin.
+4. Komut isteminde, þunlarý yazýn:
+
+   edit dosyaadý.txt
+
+Windows 95'i CD-ROM'da satýn aldýysanýz:
+----------------------------------------
+1. CD'yi CD-ROM sürücüsüne yerleþtirin (bu örnekte x sürücüsü).
+2. CD-ROM sürücünüzde \Win95 dizinine geçin.
+2. MS-DOS komut isteminde, þunlarý yazýn:
+
+   extract.exe /a /l c:\windows win95_02.cab dosyaadý.txt
+
+Örneðin, General.txt'i açmak istiyorsanýz, þunlarý yazýn:
+
+   extract.exe /a /l c:\windows win95_02.cab general.txt
+
+3. C sürücünüzde Windows dizinine geçin.
+4. Komut isteminde, þunlarý yazýn:
+
+   edit dosyaadý.txt
+
+
+WINDOWS 95'Ý GERÝ YÜKLEME
+=========================
+
+Kur sýrasýnda, Windows 95'i daha sonralarý geri yükleyebilmeniz için,
+sistem dosyalarýný kaydetme seçeneðiniz vardýr. Daha sonralarý
+Windows 95'i geri yükleyebilmek istiyorsanýz, Evet'i seçin. Kur,
+sistem dosyalarýnýzý gizli, sýkýþtýrýlmýþ bir dosyaya kaydedecektir.
+Windows 95'i geri yükleyebilmeye gereksinim duymuyorsanýz, Hayýr'ý seçin.
+
+Bu Kur seçeneðini görmeceksiniz, eðer:
+- Windows 95'in daha önceki bir sürümünü güncelleþtiriyorsanýz.
+- Yeni bir dizine yüklüyorsanýz.
+- MS-DOS'un 5.0'dan önceki sürümlerinden birisini çalýþtýrýyorsanýz.
+
+NOT:Geri yükleme dosyalarý, yerel bir sabit diskte kaydedilmelidir. 
+Bu dosyalarý bir að sürücüsüne ya da diskete kaydedemezsiniz. Çok sayýda 
+yerel sücünüz varsa, geri yükleme bilgisini kaydetmek istediðiniz sürücüyü 
+seçebilirsiniz.
+
+Windows 95'i geri yüklemek ve bilgisayarýnýzý MS-DOS Windows 3.x'in
+önceki sürümlerine tamamen geri yüklemek için, aþaðýdaki iþlemi yerine 
+getirin:
+
+1. Baþlat düðmesini týklatýn, Ayarlar'ý seçin, sonra Denetim Masasý'ný 
+týklatýn.
+2. Program Ekle/Kaldýr simgesini çift týklatýn.
+3. Yükle/Kaldýr sekmesinde, Windows 95'i týklatýn, sonra Kaldýr'ý týklatýn.
+
+Ya da, Windows 95'i baþlatmada sorunlarla karþýlaþýyorsanýz, bilgisayarýnýzý 
+baþlatmak için baþlatma disketinizi kullanýn, sonra baþlatma disketinden 
+KALDIR'ý çalýþtýrýn.
+
+NOT: Geri yükleme programýnda Windows 95 oturumunu kapatmak gerekir.
+Bu konuda bilgisayarýnýzda bir sorun varsa, bilgisayarýnýzý yeniden baþlatýn
+ve "Windows 95'i Baþlatma" iletisini gördüðünüzde F8'e basýn. Sonra
+Sadece Komut Ýstemi'ni seçin ve komut isteminden KALDIR'ý çalýþtýrýn.
+
+Windows 95 çalýþýyorsa ve 6 ile 9 MB arasý bir disk alanýný boþaltmak için
+geri yükleme dosyalarýný kaldýrmak istiyorsanýz, þu iþlemi yerine getirin:
+
+1. Baþlat düðmesini týklatýn, Ayarlar'ý seçin, sonra Denetim Masasý'ný 
+   týklatýn.
+2. Program Ekle/Kaldýr simgesini çift týklatýn.
+3. Yükle/Kaldýr sekmesinde, Eski Windows 3.x/MS-DOS Sistem Dosyalarý'ný 
+   týklatýn, sonra Kaldýr'ý týklatýn.
+
+Artýk Windows 95'i geri yükleyemeyeceksiniz.

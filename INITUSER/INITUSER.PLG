@@ -1,0 +1,53 @@
+--------------------Configuration: Inituser - Win32 Debug--------------------
+Begining build with project "C:\MyProjects\Crypto\inituser\Inituser.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Inituser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x41f /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/Inituser.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Inituser.pdb" /debug /machine:I386 /out:"Debug/Inituser.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP6326.TMP" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Inituser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\MyProjects\Crypto\inituser\Inituser.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6326.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP6327.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Inituser.pdb" /debug /machine:I386 /out:"Debug/Inituser.exe" /pdbtype:sept 
+.\Debug\Inituser.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP6327.TMP" 
+Compiling...
+Inituser.c
+C:\MyProjects\Crypto\inituser\Inituser.c(19) : error C2065: 'HCRYPTPROV' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(19) : error C2146: syntax error : missing ';' before identifier 'hProv'
+C:\MyProjects\Crypto\inituser\Inituser.c(19) : error C2065: 'hProv' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(20) : error C2065: 'HCRYPTKEY' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(20) : error C2146: syntax error : missing ';' before identifier 'hKey'
+C:\MyProjects\Crypto\inituser\Inituser.c(20) : error C2065: 'hKey' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(21) : error C2275: 'CHAR' : illegal use of this type as an expression
+C:\MyProjects\Crypto\inituser\Inituser.c(21) : error C2146: syntax error : missing ';' before identifier 'szUserName'
+C:\MyProjects\Crypto\inituser\Inituser.c(21) : error C2065: 'szUserName' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(21) : error C2109: subscript requires array or pointer type
+C:\MyProjects\Crypto\inituser\Inituser.c(22) : error C2275: 'DWORD' : illegal use of this type as an expression
+C:\MyProjects\Crypto\inituser\Inituser.c(22) : error C2146: syntax error : missing ';' before identifier 'dwUserNameLen'
+C:\MyProjects\Crypto\inituser\Inituser.c(22) : error C2065: 'dwUserNameLen' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(25) : warning C4013: 'CryptAcquireContext' undefined; assuming extern returning int
+C:\MyProjects\Crypto\inituser\Inituser.c(25) : error C2065: 'MS_DEF_PROV' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(25) : error C2065: 'PROV_RSA_FULL' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(29) : error C2065: 'CRYPT_NEWKEYSET' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(35) : warning C4013: 'CryptGetProvParam' undefined; assuming extern returning int
+C:\MyProjects\Crypto\inituser\Inituser.c(35) : error C2065: 'PP_CONTAINER' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(37) : error C2109: subscript requires array or pointer type
+C:\MyProjects\Crypto\inituser\Inituser.c(37) : error C2106: '=' : left operand must be l-value
+C:\MyProjects\Crypto\inituser\Inituser.c(44) : warning C4013: 'CryptGetUserKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\inituser\Inituser.c(44) : error C2065: 'AT_SIGNATURE' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(49) : warning C4013: 'CryptGenKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\inituser\Inituser.c(53) : warning C4013: 'CryptDestroyKey' undefined; assuming extern returning int
+C:\MyProjects\Crypto\inituser\Inituser.c(62) : error C2065: 'AT_KEYEXCHANGE' : undeclared identifier
+C:\MyProjects\Crypto\inituser\Inituser.c(79) : warning C4013: 'CryptReleaseContext' undefined; assuming extern returning int
+Error executing cl.exe.
+
+
+
+Inituser.exe - 21 error(s), 6 warning(s)

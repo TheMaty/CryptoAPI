@@ -1,0 +1,16 @@
+--------------------Configuration: Makefile - Win32 Debug--------------------
+
+
+Microsoft (R) Program Maintenance Utility   Version 1.62.7022
+Copyright (C) Microsoft Corp 1988-1997. All rights reserved.
+
+ cl -Z7 -Od -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -DWINVER=0x0400 -DWIN32  -D_WIN32 encrypt.c
+encrypt.c
+ link -debug:full -debugtype:cv /NODEFAULTLIB /INCREMENTAL:NO /PDB:NONE /RELEASE /NOLOGO -subsystem:console,4.0 -machine:i386 -out:encrypt.exe encrypt.obj msvcrt.lib oldnames.lib kernel32.lib  ws2_32.lib mswsock.lib advapi32.lib advapi32.lib
+ cl -Z7 -Od -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -DWINVER=0x0400 -DWIN32  -D_WIN32 decrypt.c
+decrypt.c
+ link -debug:full -debugtype:cv /NODEFAULTLIB /INCREMENTAL:NO /PDB:NONE /RELEASE /NOLOGO -subsystem:console,4.0 -machine:i386 -out:decrypt.exe decrypt.obj msvcrt.lib oldnames.lib kernel32.lib  ws2_32.lib mswsock.lib advapi32.lib advapi32.lib
+
+
+
+Makefile.exe - 0 error(s), 0 warning(s)
